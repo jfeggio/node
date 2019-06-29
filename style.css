@@ -1,0 +1,819 @@
+/* CSS Document */
+*
+{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0;
+}
+
+body
+{
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+span
+ {
+   font-family: 'FontAwesome';
+   padding-right: 10px;
+  }
+
+
+/* header
+================== */
+
+header
+{
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.container
+{
+  padding-top: 12%;
+  right: 0;
+  max-width: 100%;
+}
+
+/*Logo Guacamaya container title subtitle homepage*/
+@media (max-width: 640px){
+
+  .container
+  {
+    padding-top: 0.5%;
+    right: 0;
+    top: 0
+    max-width: 100%;
+  }
+
+  }
+
+.container2
+{
+
+  margin-top: 5%;
+  padding-right: 5%;
+  max-width: 100%;
+}
+img
+{
+  max-width: 100%;
+  height: auto;
+}
+
+.logo
+{
+ float: left;
+ font-family: 'Raleway';
+ text-decoration: none;
+ font-weight: 900;
+ font-size: 30px;
+ text-transform: uppercase;
+ color: white;
+ padding: 20px;
+ background-color: #0066FF;
+ box-shadow: 0px 1px 4px #0066FF;
+ margin-left: 100px;
+ margin-top: 3%;
+ text-decoration: none;
+ display: inline-block;
+}
+
+.logo a:hover
+{
+ text-decoration: none;
+ color: white;
+}
+
+.container7
+{
+display: none;
+}
+
+.about
+
+{
+display: none;
+}
+
+.menu
+
+{
+display: none;
+}
+
+/*Small Screen Logo Guacamaya*/
+@media (max-width: 640px){
+
+    .logo{
+    display: none;
+    }
+
+    .container7
+    {
+
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 15px;
+    display: inline-block;
+    background-color: white;
+    }
+
+    .menu
+    {
+    display: block;
+    width: 100%;
+    font-size: 13px;
+    letter-spacing: 0px;
+    color: #311D1D;
+    visibility: visible;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 10%;
+    padding-right: 3px;
+    visibility: visible;
+
+
+    }
+    .about
+    {
+
+    text-align: center;
+    display: inline-block;
+    height: 20px;
+    padding: 5px;
+
+    }
+
+    .about:hover
+    {
+
+    font-weight: 600;
+
+    }
+
+  }
+
+.logo-text {
+  float: left;
+  font-family: 'Raleway', cursive;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  margin-left: 1%;
+  width: 90px;
+  margin-top: 65px;
+  visibility: visible;
+  }
+
+/*Small Screen translation agency testo logo*/
+@media (max-width: 640px){
+
+  .logo-text{
+    visibility: hidden;
+    }
+
+  }
+
+
+
+nav ul
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 5%;
+  text-align: right;
+  visibility: visible;
+
+}
+
+
+  nav li
+  {
+    display: inline-block;
+    margin-left: 30px;
+    padding-left: 5px;
+    padding-right: 15px;
+    background-color: #FFFFFF;
+    position: relative;
+    visibility: visible;
+
+  }
+
+  nav a
+  {
+    display: block;
+    position: relative;
+    color: #311D1D;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 0px;
+    font-family:  'Raleway', bold;
+    font-weight: bolder;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    line-height: 5%;
+    width: auto;
+    height: 15px;
+    visibility: visible;
+  }
+
+.menu
+  {
+
+     visibility: hidden;
+  }
+.about
+{
+
+   visibility: hidden;
+}
+/*elementi nascosti nav*/
+@media (max-width: 640px){
+
+  nav li{
+
+     visibility: hidden;
+  }
+  nav a{
+
+     visibility: hidden;
+  }
+
+  .navbar
+  {
+    visibility:visible;
+  }
+
+  .about
+  {
+
+  visibility: visible;
+
+  }
+
+}
+
+
+
+nav li a:hover{
+
+  transition: .5s ease;
+  height: 20px;
+  background-color: white;
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+
+.home-frase
+{
+   background: url('lego5.png') no-repeat fixed;
+   width: 100%;
+   height: 100vh;
+   margin: 0;
+   top: 0;
+   bottom: 0;
+   background-position: center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   color: #FFFFFF;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+   font-family:  'Raleway', bold;
+   letter-spacing: -2px;
+   padding-bottom: 4%;
+
+}
+
+/*Small screen immagine homepage*/
+@media (max-width: 640px){
+  .home-frase{
+    background-image: radial-gradient(#fcf7cc,  #fde837);
+    width: auto;
+    height: 100%;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment:fixed;
+    min-height: 100%;
+
+  }
+
+}
+
+.fa-globe-americas{
+
+  visibility: hidden;
+
+}
+/*Small screen icon nella homepage*/
+@media (max-width: 640px){
+
+  .fa-globe-americas{
+    font-size: 50px;
+    visibility: visible;
+    padding-left: 2%;
+    margin-top:35%;
+    color: white;
+    position: absolute;
+
+  }
+
+}
+
+h1{
+
+  position: relative;
+  width: 800px;
+  height: auto;
+  left: 5%;
+  font-weight: 900;
+  font-size: 100px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+/*Small screen title homepage*/
+@media (max-width: 640px){
+  h1{
+    display: block;
+    position: relative;
+    font-size: 43px;
+    margin-top: 60%;
+    margin-right: 20%;
+    margin-bottom: 15%;
+    bottom: 0;
+    width: auto;
+    padding-top: 1%;
+    text-align: left;
+  }
+
+}
+
+
+h2
+{
+  position: relative;
+  text-align: left;
+  display: block;
+  padding-top: 2%;
+  left: 5%;;
+  width: 800px;
+  font-weight: 500;
+  font-size: 40px;
+  text-shadow: 0px 1px 5px rgba(255, 195, 0);
+}
+
+/*Small screen subtitle*/
+@media (max-width: 640px){
+  h2{
+    float: center;
+    display: block;
+    position: relative;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 0%;
+    margin-bottom: 20%;
+    bottom: 0;
+    margin-right: 100px;
+    width: auto;
+  }
+
+  .linea-yellow .linea-blue
+  {
+    display: none;
+
+
+  }
+
+}
+
+
+.linea-yellow
+{
+  float: right;
+  margin: 0;
+  bottom: 0;
+  position: relative;
+  margin-top: -10%;
+  display: inline-block;
+  height: auto;
+
+
+}
+
+.image-1
+{
+  width: 40%;
+  height: 30%;
+  padding-top: 5%;
+}
+
+.container4
+{
+
+  padding: 100px;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.fa-quote-left
+{
+  margin-right: 20px;
+  margin-top: 100px;
+  color: rgb(255, 221, 0, 0.4);
+
+}
+.about-us
+
+{
+  font-weight: 900;
+  font-size: 70px;
+  text-align: left;
+  padding-right: 50px;
+  display: inline-block;
+  color: rgb(255, 221, 0);
+
+}
+
+
+
+/*Small Screen prima sezione titolo */
+@media (max-width: 640px){
+
+  .container4
+  {
+    margin: -15%;
+  }
+
+  .about-us{
+    font-size: 45px;
+    }
+
+    .fa-quote-left
+    {
+      margin-right: 20px;
+      margin-top: 50px;
+      color: rgb(255, 221, 0, 0.4);
+      display: block;
+      margin-bottom: 20px;
+
+    }
+
+  }
+
+.about-us-sub
+
+{
+  font-weight: 200;
+  font-size: 50px;
+  font-style: italic;
+  padding-right: 200px;
+  color: rgb(255, 221, 0);
+
+}
+
+.container-sub
+
+{
+  display: none;
+  visibility: hidden;
+}
+
+/*Small Screen prima sezione subtext*/
+@media (max-width: 640px){
+.about-us-sub
+
+{
+  font-weight: 200;
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+  color: rgb(255, 221, 0);
+  margin-top: 35px;
+  margin-right: -150px;
+
+}
+
+
+img
+
+{
+  visibility: hidden;
+
+}
+}
+
+
+.about-us-text
+
+{
+  width: 700px;
+  text-align: justify;
+  height: 200px;
+  font-family: 'Raleway' sans-serif;
+  font-weight: 300;
+  padding-top: 10%;
+  font-size: 20px;
+  float: right;
+  padding-right: 250px;
+  color: #311D1D;
+  display: inline-block;
+
+
+}
+
+/*Small Screen text prima sezione*/
+@media (max-width: 640px){
+
+.about-us-text, .our-rates-text
+{
+
+  font-weight: 200;
+  text-align: justify;
+  font-size: 18px;
+  margin-top: -25%;
+  margin-right: 20%;
+  padding-right: 2%;
+  padding-left: 170%;
+  width: 180px;
+  color: #311D1D;
+  background-color: red;
+  position: relative;
+}
+
+
+}
+
+.our-rates
+
+{
+  font-weight: 900;
+  font-size: 70px;
+  text-align: left;
+  padding-right: 50px;
+  display: inline-block;
+  color: #7ffab9;
+
+}
+
+.our-rates-sub
+
+{
+  font-weight: 200;
+  font-size: 50px;
+  font-style: italic;
+  color: #7ffab9;
+  display: inline-block;
+}
+
+.fa-piggy-bank
+{
+  padding-right: 10px;
+  font-size: 60px;
+  color: rgb(127,250,185, 0.4);
+
+}
+
+.our-rates-text
+
+{
+  width: 700px;
+  text-align: justify;
+  font-family: 'Raleway' sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  float: left;
+  padding-left: 100px;
+  padding-right: 150px;
+  color: #311D1D;
+  padding-top: 8%;
+  display: inline-block;
+
+}
+
+
+.linea-green
+{
+  float: right;
+  margin: 0;
+  bottom: 0;
+  position: relative;
+  margin-top: -2%;
+  display: inline-block;
+  height: auto;
+
+
+}
+
+.our-language
+
+{
+  font-weight: 900;
+  font-size: 70px;
+  text-align: left;
+  padding-right: 30px;
+  display: inline-block;
+  color: #7ffad8;
+
+}
+
+.our-language-sub
+
+{
+  font-weight: 200;
+  font-size: 50px;
+  font-style: italic;
+  color: #7ffad8;
+  display: inline-block;
+
+}
+
+.fa-language
+{
+padding-right: 15px;
+color: rgb(127,250,216, 0.4);
+
+}
+
+
+.our-language-text
+
+{
+  width: 700px;
+  text-align: justify;
+  height: 200px;
+  font-family: 'Raleway' sans-serif;
+  font-weight: 300;
+  padding-top: 10%;
+  font-size: 20px;
+  float: right;
+  padding-right: 250px;
+  color: #311D1D;
+  display: inline-block;
+
+
+}
+.gradient {
+
+  width: 100%;
+  height: auto;
+  margin-top: 20%;
+  position: relative;
+  background-image: linear-gradient(#7ffad8, #c9cffd);
+}
+
+.price
+{
+ font-size: 50px;
+ color: white;
+ font-weight: 900;
+ font-style: italic;
+ padding: 50px;
+ margin-left: 18%;
+ text-shadow: 1px 0px 1px white;
+ display: inline-block;
+}
+
+.fa-dollar-sign
+{
+  font-size: 80px;
+ color: white;
+display:inline-block;
+margin-top: 50px;
+
+text-shadow: 1px 0px 1px white;
+}
+
+.cost
+{
+ font-size: 80px;
+ color: white;
+ font-weight: 700;
+ padding: 50px;
+ text-shadow: 1px 0px 1px white;
+ display: inline-block;
+}
+
+.quote-button
+{
+ width: auto;
+ height: 100px;
+ padding: 25px;
+ margin-left: 40%;
+ letter-spacing: -2px;
+ margin-bottom: 5%;
+ font-weight: 600;
+ font-size: 28px;
+ border: 2px solid black;
+ background-color: white;
+ color: #311D1D;
+ box-shadow: 5px 5px 5px black;
+}
+
+.quote-button:hover
+{
+
+  color: #333333;
+  font-weight: 600;
+  border: 2px solid #333333;
+  box-shadow: 5px 5px 5px grey;
+}
+.contact-us
+
+{
+  font-weight: 900;
+  font-size: 70px;
+  text-align: left;
+  padding-right: 30px;
+  display: inline-block;
+  color: #0066FF;
+
+}
+
+.contact-us-sub
+
+{
+  font-weight: 200;
+  font-size: 50px;
+  font-style: italic;
+  color: #0066FF;
+  display: inline-block;
+
+}
+
+.fa-envelope
+{
+padding-right: 20px;
+color: rgb(0,102,255, 0.4);
+
+}
+
+.container5
+
+{
+  margin-left: 20%;
+  margin-right: 30%;
+  padding: 0;
+  margin-top: 3%;
+
+}
+
+.linea-blue
+{
+  float: left;
+  bottom: 0;
+  margin-top: -10%;
+  margin-left: -5%;
+  position: relative;
+  display: inline-block;
+  height: auto;
+
+
+}
+
+.thankyou_message
+{
+float: center;
+text-align: center;
+font-size: 30px;
+}
+
+#honeypot {
+  display: none;
+}
+
+.fa-comments
+{
+color: rgb(183, 246, 255);
+margin-top: 15%;
+margin-left: 15%;
+font-size: 80px;
+}
+
+.container6
+{
+padding-top: 5%;
+margin-left: 10%;
+}
+
+.button-form
+
+{
+  float: right;
+  font-size: 20px;
+
+}
